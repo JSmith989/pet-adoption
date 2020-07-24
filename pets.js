@@ -178,3 +178,24 @@ const pets = [
 }
 
 buildPetCards();
+
+let cats = document.getElementById('cats');
+
+cats.addEventListener('click', buttonClicked);
+function buttonClicked(ev){
+    console.log(ev.type, ev.target, ev.currentTarget);
+}
+
+let dogs = document.getElementById('dogs');
+
+dogs.addEventListener('click', buttonClicked);
+function buttonClicked(ev){
+    console.log(ev.type, ev.target, ev.currentTarget);
+}
+
+let dino = document.getElementById('dino');
+
+dino.addEventListener('click', buttonClicked);
+function buttonClicked(ev){
+    console.log(ev.type, ev.target, ev.currentTarget);
+}
