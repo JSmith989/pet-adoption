@@ -12,17 +12,20 @@ body {
 
 }
 
-/* h1, h2, h3, h4, h5, h6 {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
+.adoption-head {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 8px;
+    font-size: 85px;
+    color: white;
+    text-shadow:3px 3px #fa9584;
 }
 
-.button {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 700;
-    font-size: 15px;
-    letter-spacing: 1px;
-} */
+.description {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
 
 .pets{
     display: flex;
